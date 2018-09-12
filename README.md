@@ -35,9 +35,11 @@ Try accessing your web url in Internet browser and you must see our home page.
 
 4. How to use?
 
-Use "Add IP to Feed" page, as and when you add IP addresses, it gets appended to a text file.
-Use "Remove IP from Feed" page, you can delete mistakenly added IP address from text file.
-Use "View Feed" page to view text file entries. "View Feed" page url is the one that you need to configure in firewall appliance to read on regular interval.
+* Use "Add IP to Feed" page, as and when you add IP addresses, it gets appended to a text file.
+
+* Use "Remove IP from Feed" page, you can delete mistakenly added IP address from text file.
+
+* Use "View Feed" page to view text file entries. "View Feed" page url is the one that you need to configure in firewall appliance to read on regular interval.
 
 
 5. Roadmap
