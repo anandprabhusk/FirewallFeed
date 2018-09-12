@@ -1,13 +1,13 @@
 You can read more about it in www.firewallfeed.com. 
 
--------------------
+
 LICENSE INFORMATION:
 
 Firewall Feed is a free tool, and source code is completely free for use, copy, modify or adopt into your own programs and products. You owe nothing to us, or to anybody else.
 We provide no warranty and if Firewall Feed causes any damage, we are no way responsible so don’t use it if you are not happy with our product.
--------------------
 
 1. About Firewall Feed
+
 Firewall Feed is a web based free tool that assists you to build your own IP address feed in your local network. 
 
 The tool facilitates maintaining IP addresses in a text file. As and when needed, you can add or remove IP address in the text file. 
@@ -38,6 +38,7 @@ Try accessing your web url in Internet browser and you must see our home page.
 Use "Add IP to Feed" page, as and when you add IP addresses, it gets appended to a text file.
 Use "Remove IP from Feed" page, you can delete mistakenly added IP address from text file.
 Use "View Feed" page to view text file entries. "View Feed" page url is the one that you need to configure in firewall appliance to read on regular interval.
+
 
 5. Roadmap
 
