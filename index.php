@@ -14,6 +14,7 @@
 		<b><font color="#ff6600">Home</font></b>
     	<a href="form15.php">Add IP to Feed</a>
 		<a href="formremove15.php">Remove IP from Feed</a>
+		<a href="formbulk15.php">Bulk Upload IPs to Feed</a>
 		<a href="text15.txt">View Feed</a>
     </div>
 

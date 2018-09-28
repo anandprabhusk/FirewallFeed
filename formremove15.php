@@ -52,6 +52,7 @@ function validateIP(){
 		<a href="index.php">Home</a>
     	<a href="form15.php">Add IP to Feed</a>
 		<b><font color="#ff6600">Remove IP from Feed</font></b>
+		<a href="formbulk15.php">Bulk Upload IPs to Feed</a>
 		<a href="text15.txt">View Feed</a>
     </div>  
 <div id="contentColumn">
