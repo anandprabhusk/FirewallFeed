@@ -29,8 +29,3 @@ Try accessing your web url in Internet browser and you must see our home page.
 * Use "Remove IP from Feed" page, you can delete mistakenly added IP address from text file.
 
 * Use "View Feed" page to view text file entries. "View Feed" page url is the one that you need to configure in firewall appliance to read on regular interval.
-
-
-5. Roadmap
-
-In the future releases, we are introducing bulk upload facility and feeds of domain names and URLs.
