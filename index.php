@@ -24,7 +24,7 @@ Firewall Feed is a web based free tool that assists you to build your own IP add
 <br><br>
 Following is your url feed to configure in the firewall.
 <?php
-echo "<b>".'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']."text15.txt</b>";
+echo "<b>".'http://'. $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI'])."/text15.txt</b>";
 ?>  
 <br><br>
 Known issue: If your firewall is unable to reach this url feed, use IP address instead of Server DNS Name.
