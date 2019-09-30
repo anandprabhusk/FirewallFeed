@@ -4,10 +4,12 @@ GitHub - https://github.com/anandprabhusk/FirewallFeed
 
 ***About Firewall Feed***
 
-Firewall Feed is a web based free tool that assists you to build your own IP address feed in your local network. 
+Firewall Feed is a web based tool that you can use to build your own bad IP address feed in your local network for your firewall/IPS appliances. 
 
-The tool facilitates maintaining IP addresses in a text file. As and when needed, you can add or remove IP address in the text file. 
+The tool facilitates maintaining IP addresses in a text file.
+
 Most Next Generation firewalls support reading of such text files on regular intervals, so you can further enforce in firewall security policies to either allow or block traffic to these IP addresses. 
+
 Hence you don’t need to make configuration change or commit on the firewall every time.
 
 Yes, you are right. Firewall Feed is similar to spamhaus and other blocklists available on internet, but Firewall Feed is your own IP address feed that is running on your local LAN.
