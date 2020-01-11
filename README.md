@@ -28,6 +28,14 @@ Try accessing your web url in Internet browser and you must see our home page.
 
 * Use "Add IP to Feed" page, as and when you add IP addresses, it gets appended to a text file.
 
+![Add IP Address to Feed](https://github.com/anandprabhusk/FirewallFeed/blob/master/Add_IP.png)
+
 * Use "Remove IP from Feed" page, you can delete mistakenly added IP address from text file.
+
+![Remove IP Address from Feed](https://github.com/anandprabhusk/FirewallFeed/blob/master/Remove_IP.png)
+
+* Use "Bulk Upload IPs to Feed" page, to upload bulk of IP address to text file. 
+
+![Bulk Upload IP Address to Feed](https://github.com/anandprabhusk/FirewallFeed/blob/master/Bulk_IP_Upload.png)
 
 * Use "View Feed" page to view text file entries. "View Feed" page url is the one that you need to configure in firewall appliance to read on regular interval.
