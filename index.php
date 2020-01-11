@@ -23,9 +23,23 @@
 Firewall Feed is a web based free tool that assists you to build your own IP address feed in your local network. You can read more about it in <a href="http://firewallfeed.com">www.firewallfeed.com</a>.
 <br><br>
 Following is your url feed to configure in the firewall.
+
 <?php
-echo "<b>".'http://'. $_SERVER['SERVER_NAME'] . dirname($_SERVER['REQUEST_URI'])."/text15.txt</b>";
+//$header = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"."text15.txt</b>";
+$header = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://".$_SERVER['HTTP_HOST'];
+
+$url = $_SERVER['REQUEST_URI'];
+$file_info = pathinfo($url);
+$file_info = isset($file_info['extension']) ? str_replace($file_info['filename'] . "." . $file_info['extension'], "", $url) : $url;
+//echo "<br><a href=\"".$header.$file_info."text15.txt\"> URL Feed</a><br>";
+
+echo "<br>".$header.$file_info."text15.txt<br>";
+
 ?>  
+
+
+
+
 <br><br>
 Known issue: If your firewall is unable to reach this url feed, use IP address instead of Server DNS Name.
 Report bug or feature requests to firewallfeed@gmail.com. 
